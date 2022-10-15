@@ -84,9 +84,3 @@ def sharepost():
             data = {'status':'success','message':'Share Post Thành Công'}
             js3 = json.dumps(data)
             return js3
-
-if __name__=='__main__':
-    app.run(host='0.0.0.0',port=7777)
-
-
-# ngrok config add-authtoken 2FlR0VtA4zY9HAopUCzXkFW7GDJ_5D9prjKcajzPvww4Bxtp3
